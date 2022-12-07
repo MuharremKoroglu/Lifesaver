@@ -1,0 +1,6 @@
+framework module Pods_Lifesaver {
+  umbrella header "Pods-Lifesaver-umbrella.h"
+
+  export *
+  module * { export * }
+}

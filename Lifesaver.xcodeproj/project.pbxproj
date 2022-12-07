@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2D6EA2293B1974003B5B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EA1293B1974003B5B4D /* AppDelegate.swift */; };
+		3B2D6EA4293B1974003B5B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EA3293B1974003B5B4D /* SceneDelegate.swift */; };
+		3B2D6EA6293B1974003B5B4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EA5293B1974003B5B4D /* ViewController.swift */; };
+		3B2D6EA9293B1974003B5B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D6EA7293B1974003B5B4D /* Main.storyboard */; };
+		3B2D6EAB293B1974003B5B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D6EAA293B1974003B5B4D /* Assets.xcassets */; };
+		3B2D6EAE293B1974003B5B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D6EAC293B1974003B5B4D /* LaunchScreen.storyboard */; };
+		3B2D6EB6293B1FD4003B5B4D /* Combo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D6EB5293B1FD4003B5B4D /* Combo-Regular.ttf */; };
+		3B2D6EB8293B289D003B5B4D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EB7293B289D003B5B4D /* SignUpViewController.swift */; };
+		3B2D6EBA293B28AE003B5B4D /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EB9293B28AE003B5B4D /* PasswordResetViewController.swift */; };
+		3B2D6EBC293B65A0003B5B4D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EBB293B65A0003B5B4D /* FeedViewController.swift */; };
+		3B2D6EBE293B65B4003B5B4D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EBD293B65B4003B5B4D /* AccountViewController.swift */; };
+		3B2D6EC0293B65D2003B5B4D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EBF293B65D2003B5B4D /* AddViewController.swift */; };
+		3B2D6EC2293B65DF003B5B4D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D6EC1293B65DF003B5B4D /* MapViewController.swift */; };
+		3B4DC926293F106F007E0217 /* Lifesaver Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DC925293F106F007E0217 /* Lifesaver Singleton.swift */; };
+		3BC40006293C743D00097A9B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC40005293C743D00097A9B /* DetailsViewController.swift */; };
+		ABFC4A471C1D755DB7CB4314 /* Pods_Lifesaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E72F6CCCD29CF76130AB5 /* Pods_Lifesaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E34794B7F322D97A5177FB /* Pods-Lifesaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifesaver.release.xcconfig"; path = "Target Support Files/Pods-Lifesaver/Pods-Lifesaver.release.xcconfig"; sourceTree = "<group>"; };
+		3B2D6E9E293B1974003B5B4D /* Lifesaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifesaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2D6EA1293B1974003B5B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2D6EA3293B1974003B5B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B2D6EA5293B1974003B5B4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2D6EA8293B1974003B5B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2D6EAA293B1974003B5B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2D6EAD293B1974003B5B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2D6EAF293B1974003B5B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2D6EB5293B1FD4003B5B4D /* Combo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Combo-Regular.ttf"; sourceTree = "<group>"; };
+		3B2D6EB7293B289D003B5B4D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3B2D6EB9293B28AE003B5B4D /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		3B2D6EBB293B65A0003B5B4D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3B2D6EBD293B65B4003B5B4D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		3B2D6EBF293B65D2003B5B4D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3B2D6EC1293B65DF003B5B4D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3B4DC925293F106F007E0217 /* Lifesaver Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lifesaver Singleton.swift"; sourceTree = "<group>"; };
+		3BC40005293C743D00097A9B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DF60EC9595A70BA9ED3AA426 /* Pods-Lifesaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifesaver.debug.xcconfig"; path = "Target Support Files/Pods-Lifesaver/Pods-Lifesaver.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5E72F6CCCD29CF76130AB5 /* Pods_Lifesaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lifesaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2D6E9B293B1974003B5B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC4A471C1D755DB7CB4314 /* Pods_Lifesaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2D6E95293B1973003B5B4D = {
+			isa = PBXGroup;
+			children = (
+				3B2D6EA0293B1974003B5B4D /* Lifesaver */,
+				3B2D6E9F293B1974003B5B4D /* Products */,
+				BB60F4D41F0B847D1B60A353 /* Pods */,
+				D51016972D98C9ADC83E153A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2D6E9F293B1974003B5B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D6E9E293B1974003B5B4D /* Lifesaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2D6EA0293B1974003B5B4D /* Lifesaver */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D6EA1293B1974003B5B4D /* AppDelegate.swift */,
+				3B2D6EA3293B1974003B5B4D /* SceneDelegate.swift */,
+				3B2D6EA5293B1974003B5B4D /* ViewController.swift */,
+				3B2D6EB7293B289D003B5B4D /* SignUpViewController.swift */,
+				3B2D6EB9293B28AE003B5B4D /* PasswordResetViewController.swift */,
+				3B2D6EBD293B65B4003B5B4D /* AccountViewController.swift */,
+				3B2D6EBB293B65A0003B5B4D /* FeedViewController.swift */,
+				3B2D6EBF293B65D2003B5B4D /* AddViewController.swift */,
+				3B2D6EC1293B65DF003B5B4D /* MapViewController.swift */,
+				3BC40005293C743D00097A9B /* DetailsViewController.swift */,
+				3B4DC925293F106F007E0217 /* Lifesaver Singleton.swift */,
+				3B2D6EA7293B1974003B5B4D /* Main.storyboard */,
+				3B2D6EB5293B1FD4003B5B4D /* Combo-Regular.ttf */,
+				3B2D6EAA293B1974003B5B4D /* Assets.xcassets */,
+				3B2D6EAC293B1974003B5B4D /* LaunchScreen.storyboard */,
+				3B2D6EAF293B1974003B5B4D /* Info.plist */,
+			);
+			path = Lifesaver;
+			sourceTree = "<group>";
+		};
+		BB60F4D41F0B847D1B60A353 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF60EC9595A70BA9ED3AA426 /* Pods-Lifesaver.debug.xcconfig */,
+				17E34794B7F322D97A5177FB /* Pods-Lifesaver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D51016972D98C9ADC83E153A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E72F6CCCD29CF76130AB5 /* Pods_Lifesaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2D6E9D293B1974003B5B4D /* Lifesaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2D6EB2293B1974003B5B4D /* Build configuration list for PBXNativeTarget "Lifesaver" */;
+			buildPhases = (
+				B493109942E797571144376C /* [CP] Check Pods Manifest.lock */,
+				3B2D6E9A293B1974003B5B4D /* Sources */,
+				3B2D6E9B293B1974003B5B4D /* Frameworks */,
+				3B2D6E9C293B1974003B5B4D /* Resources */,
+				167EE89D8665B300B17DE17F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lifesaver;
+			productName = Lifesaver;
+			productReference = 3B2D6E9E293B1974003B5B4D /* Lifesaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2D6E96293B1973003B5B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3B2D6E9D293B1974003B5B4D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B2D6E99293B1973003B5B4D /* Build configuration list for PBXProject "Lifesaver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2D6E95293B1973003B5B4D;
+			productRefGroup = 3B2D6E9F293B1974003B5B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2D6E9D293B1974003B5B4D /* Lifesaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2D6E9C293B1974003B5B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2D6EB6293B1FD4003B5B4D /* Combo-Regular.ttf in Resources */,
+				3B2D6EAE293B1974003B5B4D /* LaunchScreen.storyboard in Resources */,
+				3B2D6EAB293B1974003B5B4D /* Assets.xcassets in Resources */,
+				3B2D6EA9293B1974003B5B4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167EE89D8665B300B17DE17F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lifesaver/Pods-Lifesaver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lifesaver/Pods-Lifesaver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lifesaver/Pods-Lifesaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B493109942E797571144376C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lifesaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2D6E9A293B1974003B5B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2D6EA6293B1974003B5B4D /* ViewController.swift in Sources */,
+				3B2D6EBA293B28AE003B5B4D /* PasswordResetViewController.swift in Sources */,
+				3B4DC926293F106F007E0217 /* Lifesaver Singleton.swift in Sources */,
+				3B2D6EC0293B65D2003B5B4D /* AddViewController.swift in Sources */,
+				3B2D6EBE293B65B4003B5B4D /* AccountViewController.swift in Sources */,
+				3B2D6EC2293B65DF003B5B4D /* MapViewController.swift in Sources */,
+				3B2D6EA2293B1974003B5B4D /* AppDelegate.swift in Sources */,
+				3B2D6EB8293B289D003B5B4D /* SignUpViewController.swift in Sources */,
+				3B2D6EBC293B65A0003B5B4D /* FeedViewController.swift in Sources */,
+				3B2D6EA4293B1974003B5B4D /* SceneDelegate.swift in Sources */,
+				3BC40006293C743D00097A9B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B2D6EA7293B1974003B5B4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2D6EA8293B1974003B5B4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2D6EAC293B1974003B5B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2D6EAD293B1974003B5B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2D6EB0293B1974003B5B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2D6EB1293B1974003B5B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2D6EB3293B1974003B5B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF60EC9595A70BA9ED3AA426 /* Pods-Lifesaver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC4L7S8Y7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lifesaver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muharremkoroglu.Lifesaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2D6EB4293B1974003B5B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E34794B7F322D97A5177FB /* Pods-Lifesaver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC4L7S8Y7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lifesaver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muharremkoroglu.Lifesaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2D6E99293B1973003B5B4D /* Build configuration list for PBXProject "Lifesaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2D6EB0293B1974003B5B4D /* Debug */,
+				3B2D6EB1293B1974003B5B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2D6EB2293B1974003B5B4D /* Build configuration list for PBXNativeTarget "Lifesaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2D6EB3293B1974003B5B4D /* Debug */,
+				3B2D6EB4293B1974003B5B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2D6E96293B1973003B5B4D /* Project object */;
+}
